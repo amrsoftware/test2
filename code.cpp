@@ -20,7 +20,7 @@ void sprint(const string &str){
 	for(int i=0; i<length; ++i)
         printf("%c",str[i]);
 }
-
+// seada
 //int number of 1`s
 //(i,j) start point of region
 int out_img(int i,int j,int n,const int &t){
@@ -43,9 +43,9 @@ int out_img(int i,int j,int n,const int &t){
     sum1 += ur;
     sum1 += ul;
     sum1 += ll;
-    sum1 += lr;
+    sum1 += lr; 
 
-    //count 0
+    //count 50
     int sum0 = 0;
     sum0 += n*n;
     sum0 -= sum1;
