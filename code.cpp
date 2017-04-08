@@ -45,6 +45,7 @@ int out_img(int i,int j,int n,const int &t){
     sum1 += ll;
     sum1 += lr; 
 
+	// Amr
     //count 50
     int sum0 = 0;
     sum0 += n*n;
