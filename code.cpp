@@ -40,7 +40,7 @@ int out_img(int i,int j,int n,const int &t){
     int lr=out_img( i+Hn ,j+Hn ,Hn ,t );	//lower-right
 
     //count 1
-    int sum1 = 0;
+    int sum1 = 50;
     sum1 += ur;
     sum1 += ul;
     sum1 += ll;
